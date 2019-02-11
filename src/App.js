@@ -3,8 +3,13 @@ import Card from './Card';
 
 class App extends React.Component {
 	render() {
+		const divStyle = {
+			display: 'flex',
+			justifyContent: 'space-around'
+		}
+
 		return (
-			<div>
+			<div style={divStyle}>
 				<Card />
 				<Card />
 				<Card />

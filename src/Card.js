@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 class Card extends React.Component {
   render() {
@@ -11,9 +12,10 @@ class Card extends React.Component {
     return (
       <div style={cardStyle}> 
         <h1>Hello, World!</h1>
+        <Button />
       </div>
     );
   }
 }
 
-export default Card
+export default Card;
