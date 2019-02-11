@@ -1,5 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import './App.css';
+
+class Card extends React.Component {
+  render() {
+    return <div className="card"> </div>;
+  }
+}
 
 class App extends React.Component {
   render() {
@@ -7,4 +13,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default Card
