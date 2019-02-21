@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+import MyButton from './MyButton';
 
 class Card extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class Card extends React.Component {
     return (
       <div style={cardStyle}> 
         <h1>Hello, World!</h1>
-        <Button />
+        <MyButton />
       </div>
     );
   }

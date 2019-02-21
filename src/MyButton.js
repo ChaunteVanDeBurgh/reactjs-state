@@ -1,12 +1,15 @@
 import React from 'react';
 
-export class Button extends React.Component {
+class MyButton extends React.Component {
 	render() {
 		const buttonStyle = {
-			backgroundColor: 'blue';
+			backgroundColor: 'red',
+			color: 'white'
 		}
 		return (
 			<div style="buttonStyle"> submit </div>
 		);
 	}
 }
+
+export default MyButton;
